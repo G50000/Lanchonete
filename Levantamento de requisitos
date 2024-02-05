@@ -1,0 +1,13 @@
+Levantamento de requisitos
+Regras de negócio: 
+- Apenas uma refeição por dia será contabilizada no aplicativo.
+- Após frequentar a lanchonete por 10 dias seguidos, o cliente pode pedir uma refeição grátis.
+Requisitos funcionais:
+- O aplicativo será adquirido por meio de um QR code gerado no momento da requisição do cartão fidelidade do cliente.
+- O aplicativo deve ser capaz de acompanhar pedidos feitos pelo cliente na lanchonete
+- O aplicativo deve exibir informações dos pedidos feitos: data, hora e valor do pedido.
+- O aplicativo deve oferecer opção para o cliente requisitar a recompensa após os 10 dias preenchidos.
+- O aplicativo deve reiniciar a contagem de dias após a recompensa for requisitada.
+- O aplicativo deve salvar dados de cada pedido em um banco de dados local, como um comprovante.
+Requisitos não funcionais:
+- O aplicativo deve mostrar os dias e pedidos feitos de forma organizada e intuitiva. 
